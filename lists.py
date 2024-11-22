@@ -14,3 +14,5 @@ eve_emp.sort()
 print(combine)
 print(odd_emp)
 print(eve_emp)
+comb=eve_emp+odd_emp
+print(comb)
