@@ -5,5 +5,8 @@ def addition(num1,num2):
        return num1
    else:
        return num1+addition(num1,num2-1)
-y=addition(num1,num2)
-print("product=",y)
+      if num1>0 and num2>0:      
+   y=addition(num1,num2)
+   print("product=",y)
+else:
+    print("enter valid positive numbers")
